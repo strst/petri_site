@@ -1,0 +1,26 @@
+h1 {
+  background-image: linear-gradient(90deg, #e3535d, #2aa5a0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  0% {
+    background-image: linear-gradient(90deg, #e3535d, #00fff7);
+  }
+
+  25% {
+    background-image: linear-gradient(90deg, #e2214e, #00ffc3);
+  }
+  50% {
+    background-image: linear-gradient(90deg, #e22198, #00ff77);
+  }
+  75% {
+    background-image: linear-gradient(90deg, #e221bf, #00ff51);
+  }
+  100% {
+    background-image: linear-gradient(90deg, #d821e2, #00ff00);
+  }
+}
